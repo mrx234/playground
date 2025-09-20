@@ -1,0 +1,5 @@
+type: info
+label: ""
+text: |
+  **(link: {{ page.avalexPreview.url }} text: {{ t('avalex.preview.label') }} ↗︎ target: {{ page.avalexPreview.target }})**
+theme: none

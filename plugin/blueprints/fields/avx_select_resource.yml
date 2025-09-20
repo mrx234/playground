@@ -1,0 +1,12 @@
+# Select one of many avalex resources
+
+type: radio
+label: "{{ t('avalex.select.label') }}"
+options:
+  imprint: "{{ t('avalex.select.option.imprint') }}"
+  disclaimer: "{{ t('avalex.select.option.disclaimer') }}"
+  conditions: "{{ t('avalex.select.option.conditions') }}*"
+  revocation: "{{ t('avalex.select.option.revocation') }}*"
+help: |
+  {{ t('avalex.select.help') }}
+translate: false

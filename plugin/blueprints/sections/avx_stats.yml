@@ -1,0 +1,22 @@
+# Statistics section
+
+type: stats
+label: avalex.stats.label
+size: small
+reports:
+  - label: "{{ t('avalex.stats.domain') }}"
+    value: "{{ site.avalex.credentials.domain }}"
+    info: "{{ t('avalex.stats.domain.info') }}"
+    theme: info
+    icon: home
+  - label: "{{ t('avalex.stats.apikey') }}"
+    value: "{{ site.avalex.credentials.apikey }}"
+    info: "{{ site.avalex.verifyCredentials() ? t('avalex.stats.apikey.success') : t('avalex.stats.apikey.error') }}"
+    theme: "{{ site.avalex.verifyCredentials() ? 'positive' : 'negative' }}"
+    icon: key
+  - label: >
+      {{ t('avalex.stats.status.date') }}
+    value: "{{ site.avalex.timestampLastAccess('d.m.Y H:i', page.avx_resource) }}"
+    info: "{{ t('avalex.stats.status.date.info') }}"
+    theme: info
+    icon: clock

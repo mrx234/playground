@@ -1,0 +1,7 @@
+# Select one or more of many avalex resources
+
+type: structure
+label: "{{ t('avalex.select.multiple.label') }}"
+fields:
+  resource: fields/avx_select_resource
+translate: false
