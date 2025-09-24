@@ -1,6 +1,7 @@
 {
     "name": "mrx234/playground",
     "description": "Just to test some stuff ...",
+    "version": "0.0.9",
     "authors": [
         {
             "name": "Markus",
