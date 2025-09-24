@@ -6,6 +6,7 @@ VERSION="$1"
 if [ "$VERSION" == "" ]
 then
 	echo "Please specifiy version: $0 v0.0.0"
+	exit
 fi
 
 echo ""
