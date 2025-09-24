@@ -1,0 +1,11 @@
+{
+    "name": "mrx234/playground",
+    "description": "Just to test some stuff ...",
+    "authors": [
+        {
+            "name": "Markus",
+            "email": "mrx@maw-dev.de"
+        }
+    ],
+    "require": {}
+}
